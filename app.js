@@ -13,6 +13,11 @@ const { events, config, tags } = initialData;
 app.get('/events', (req, res) => res.json(events));
 app.get('/config', (req, res) => res.json(config));
 app.get('/tags', (req, res) => res.json(tags));
+app.get('/events/:id', (req, res) => {
+  const { id } = req.params;
+  const singleEventToSend = events.findIndex((item) => item.id === id);
+  res.json(events[singleEventToSend]);
+});
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -22,6 +27,20 @@ app.post('/events', (req, res) => {
   const newEvent = { id, ...req.body };
   events.push(newEvent);
   res.json(newEvent);
+});
+
+app.delete('/events/:id', (req, res) => {
+  const { id } = req.params;
+  const eventToDelete = events.findIndex((item) => item.id === id);
+  events.splice(eventToDelete, 1);
+  res.send('event deleted');
+});
+
+app.put('/events/:id', (req, res) => {
+  const { id } = req.params;
+  const eventToUpdate = events.findIndex((item) => item.id === id);
+  events[eventToUpdate] = req.body;
+  res.send('event updated');
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
