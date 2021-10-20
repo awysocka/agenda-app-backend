@@ -501,18 +501,22 @@ exports.config = {
 
 exports.tags = [
   {
+    id: '7033b3d6-a6ac-47a1-81b3-2268f4bf00dc',
     name: 'begginers',
     color: '#06D6A0',
   },
   {
+    id: 'a701ba96-c0e9-4057-b484-be1b41804cda',
     name: 'intermediate',
     color: '#FFD166',
   },
   {
+    id: '2c9ddcb6-ea82-455d-a118-ea8e0910de0a',
     name: 'advanced',
     color: '#EF476F',
   },
   {
+    id: 'bdbd57a6-9355-4231-b9f5-706d1b97cef4',
     name: 'all levels',
     color: '#118AB2',
   },
