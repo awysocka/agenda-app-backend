@@ -10,7 +10,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const { events, config, tags } = initialData;
+const { events, tags } = initialData;
+let { config } = initialData;
 
 app.get('/events', (req, res) => res.json(events));
 app.get('/events/:id', (req, res) => {
@@ -38,6 +39,11 @@ app.put('/events/:id', (req, res) => {
 });
 
 app.get('/config', (req, res) => res.json(config));
+app.put('/config', (req, res) => {
+  const newObj = { ...req.body };
+  config = newObj;
+  res.send('config updated');
+});
 
 app.get('/tags', (req, res) => res.json(tags));
 app.get('/tags/:id', (req, res) => {
