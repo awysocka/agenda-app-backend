@@ -7,7 +7,7 @@ const initialData = require('./initialData');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.SERVER_PORT;
+const port = process.env.PORT;
 
 const checkJwt = auth({
   audience: process.env.AUTH0_AUDIENCE,
