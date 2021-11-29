@@ -3,7 +3,8 @@ exports.events = [
     id: '6c0244cd-7cf7-4869-be81-cfd1d24de143',
     title: 'registration',
     date: '2021-06-23',
-    time: '9.00-11.00',
+    startTime: '9.00',
+    endTime: '11.00',
     location: 'canteen ',
     teacher: '',
     description:
@@ -15,7 +16,8 @@ exports.events = [
     id: 'b2612b42-0db4-472b-a2f4-3500813891b9',
     title: 'warm up',
     date: '2021-06-23',
-    time: '10.00-10.30',
+    startTime: '10.00',
+    endTime: '10.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -27,7 +29,8 @@ exports.events = [
     id: '40b34f2d-6118-43ad-b16f-2e05788395cd',
     title: 'workshop 1',
     date: '2021-06-23',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -39,7 +42,8 @@ exports.events = [
     id: 'a45b326a-ff43-4abb-816f-6e6d6a404e5d',
     title: 'workshop 2',
     date: '2021-06-23',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -51,7 +55,8 @@ exports.events = [
     id: '64443716-1ab8-46ab-a81d-1d09e2353ed2',
     title: 'workshop 3',
     date: '2021-06-23',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -63,7 +68,8 @@ exports.events = [
     id: '769b2d7a-7501-4499-b9da-e5530c023297',
     title: 'workshop 4',
     date: '2021-06-23',
-    time: '12.30-13.30',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -75,7 +81,8 @@ exports.events = [
     id: 'be655999-0fb5-46fd-8d1b-e8a1f0268179',
     title: 'workshop 5',
     date: '2021-06-23',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -87,7 +94,8 @@ exports.events = [
     id: '77d8abcd-e96e-431c-ac5c-35cd7e62184c',
     title: 'workshop 6',
     date: '2021-06-23',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -99,7 +107,8 @@ exports.events = [
     id: '8c2f3315-2e35-43b0-90ab-4f8ac80f0403',
     title: 'workshop 7',
     date: '2021-06-23',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -111,7 +120,8 @@ exports.events = [
     id: 'd5c48e40-5381-4ac3-8620-8810104fdc54',
     title: 'lunch',
     date: '2021-06-23',
-    time: '14.00-15.30',
+    startTime: '14.00',
+    endTime: '15.30',
     location: 'canteen',
     teacher: '',
     description:
@@ -123,7 +133,8 @@ exports.events = [
     id: 'afb94826-b449-4a91-a2c5-1a2b5dbf4653',
     title: 'workshop 8',
     date: '2021-06-23',
-    time: '16.00-17.00',
+    startTime: '16.00',
+    endTime: '17.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -135,7 +146,8 @@ exports.events = [
     id: '921e0c0e-b2f0-443e-b512-1240d49d15ee',
     title: 'workshop 9',
     date: '2021-06-23',
-    time: '16.00-17.00',
+    startTime: '16.00',
+    endTime: '17.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -147,7 +159,8 @@ exports.events = [
     id: '22b94130-b407-4399-9056-03d058fb0a7e',
     title: 'workshop 10',
     date: '2021-06-23',
-    time: '16.00-17.00',
+    startTime: '16.00',
+    endTime: '17.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -159,7 +172,8 @@ exports.events = [
     id: 'a9d6eafb-39be-4afa-bf27-53141303a405',
     title: 'dinner',
     date: '2021-06-23',
-    time: '17.30-19.00',
+    startTime: '17.30',
+    endTime: '19.00',
     location: 'canteen',
     teacher: '',
     description:
@@ -171,7 +185,8 @@ exports.events = [
     id: 'bbe2deca-f937-42fe-a53a-f624352842d8',
     title: 'yoga',
     date: '2021-06-24',
-    time: '7.00-8.00',
+    startTime: '7.00',
+    endTime: '8.00',
     location: 'main hall ',
     teacher: '',
     description:
@@ -183,7 +198,8 @@ exports.events = [
     id: 'd0af50b1-72f6-4f1e-96f4-07fd20549ba5',
     title: 'breakfast',
     date: '2021-06-24',
-    time: '8.00-9.30',
+    startTime: '8.00',
+    endTime: '9.30',
     location: 'canteen ',
     teacher: '',
     description:
@@ -195,7 +211,8 @@ exports.events = [
     id: '7c17cec2-bdcb-4931-a485-f459813ad255',
     title: 'warm up',
     date: '2021-06-24',
-    time: '10.00-10.30',
+    startTime: '10.00',
+    endTime: '10.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -207,7 +224,8 @@ exports.events = [
     id: '510e4e34-9723-4821-ac33-52504aa87af8',
     title: 'workshop 11',
     date: '2021-06-24',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -219,7 +237,8 @@ exports.events = [
     id: '96545612-a50f-4420-be39-e90570dc8836',
     title: 'workshop 12',
     date: '2021-06-24',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -231,7 +250,8 @@ exports.events = [
     id: 'a5c1ed4c-8785-416f-a619-f32fab020d87',
     title: 'workshop 13',
     date: '2021-06-24',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -243,7 +263,8 @@ exports.events = [
     id: 'a3894b48-d5b8-4c31-a33a-8d845e991a16',
     title: 'workshop 14',
     date: '2021-06-24',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -255,7 +276,8 @@ exports.events = [
     id: '03005ee1-5fb1-4a6f-8273-4d856ce56ccb',
     title: 'workshop 15',
     date: '2021-06-24',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -267,7 +289,8 @@ exports.events = [
     id: '5921e78f-d806-4d9a-8499-654eefcf90b2',
     title: 'workshop 16',
     date: '2021-06-24',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -279,7 +302,8 @@ exports.events = [
     id: '73e48cac-9fbc-4bd2-8737-1063e5c5993b',
     title: 'workshop 17',
     date: '2021-06-24',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -291,7 +315,8 @@ exports.events = [
     id: 'b57ca4e6-4191-40ca-9b8f-1e3ecc70defe',
     title: 'lunch',
     date: '2021-06-24',
-    time: '14.00-15.30',
+    startTime: '14.00',
+    endTime: '15.30',
     location: 'canteen',
     teacher: '',
     description:
@@ -303,7 +328,8 @@ exports.events = [
     id: 'f130493c-f964-409b-8e81-5acb37fbd6d5',
     title: 'workshop 18',
     date: '2021-06-24',
-    time: '16.00-17.00',
+    startTime: '16.00',
+    endTime: '17.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -315,7 +341,8 @@ exports.events = [
     id: 'f35b7696-98ae-4750-bb0c-85e716bd9d94',
     title: 'workshop 19',
     date: '2021-06-24',
-    time: '16.00-17.00',
+    startTime: '16.00',
+    endTime: '17.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -327,7 +354,8 @@ exports.events = [
     id: '7536a7b1-e0a3-43c0-b488-a3e53d6fdecf',
     title: 'workshop 20',
     date: '2021-06-24',
-    time: '16.00-17.00',
+    startTime: '16.00',
+    endTime: '17.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -339,7 +367,8 @@ exports.events = [
     id: '22f952c1-47ab-4804-85af-c8b07cbdfe02',
     title: 'dinner',
     date: '2021-06-24',
-    time: '17.30-19.00',
+    startTime: '17.30',
+    endTime: '19.00',
     location: 'canteen',
     teacher: '',
     description:
@@ -351,7 +380,8 @@ exports.events = [
     id: '55ef2a14-2d0c-4273-814c-272db21f9a70',
     title: 'yoga',
     date: '2021-06-25',
-    time: '7.00-8.00',
+    startTime: '7.00',
+    endTime: '8.00',
     location: 'main hall ',
     teacher: '',
     description:
@@ -363,7 +393,8 @@ exports.events = [
     id: 'c3d20310-183d-4396-a811-cc008ea2461c',
     title: 'breakfast',
     date: '2021-06-25',
-    time: '8.00-9.30',
+    startTime: '8.00',
+    endTime: '9.30',
     location: 'canteen ',
     teacher: '',
     description:
@@ -375,7 +406,8 @@ exports.events = [
     id: 'b09065fa-56cf-4b0a-926d-e9bb9ed1cea2',
     title: 'warm up',
     date: '2021-06-25',
-    time: '10.00-10.30',
+    startTime: '10.00',
+    endTime: '10.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -387,7 +419,8 @@ exports.events = [
     id: 'a76692c8-7ce9-449e-a2fd-751bfc8c09c0',
     title: 'workshop 21',
     date: '2021-06-25',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -399,7 +432,8 @@ exports.events = [
     id: 'f6c12fd5-474d-4a15-a08c-b0a9ca2da22f',
     title: 'workshop 22',
     date: '2021-06-25',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -411,7 +445,8 @@ exports.events = [
     id: 'e81a9dea-8a7e-436d-901a-0e33be74c78f',
     title: 'workshop 23',
     date: '2021-06-25',
-    time: '11.00-12.00',
+    startTime: '11.00',
+    endTime: '12.00',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -423,7 +458,8 @@ exports.events = [
     id: '60243b2a-8711-4a9e-9448-eca0264abd9a',
     title: 'workshop 24',
     date: '2021-06-25',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -435,7 +471,8 @@ exports.events = [
     id: '8ac73f31-dcb6-4471-8fb9-48f826f5ca64',
     title: 'workshop 25',
     date: '2021-06-25',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -447,7 +484,8 @@ exports.events = [
     id: '4417fadf-5b10-4baa-bfe0-20c481542f90',
     title: 'workshop 26',
     date: '2021-06-25',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -459,7 +497,8 @@ exports.events = [
     id: '2b5fafff-ae5a-43db-a949-9a9f12446c1d',
     title: 'workshop 27',
     date: '2021-06-25',
-    time: '12.30-13.30',
+    startTime: '12.30',
+    endTime: '13.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
@@ -471,7 +510,8 @@ exports.events = [
     id: '5a891ddc-3423-42d5-8683-6316fe637a55',
     title: 'lunch',
     date: '2021-06-25',
-    time: '14.00-15.30',
+    startTime: '13.30',
+    endTime: '15.30',
     location: 'canteen',
     teacher: '',
     description:
@@ -483,7 +523,8 @@ exports.events = [
     id: 'daca58d3-763c-4742-83fd-30816d5bf881',
     title: 'clean up',
     date: '2021-06-25',
-    time: '15.30-16.30',
+    startTime: '15.30',
+    endTime: '16.30',
     location: 'main hall',
     teacher: 'name surname',
     description:
